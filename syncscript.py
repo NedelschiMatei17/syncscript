@@ -81,7 +81,7 @@ if __name__ == '__main__':
     if len(sys.argv) != 5:
         print("Bad usage of the command(arguments < 5).")
         print("You should use the command like this:\n py syncscript.py src_folder_path rep_folder_path log_file_path interval")
-        raise SystemExit(1)
+        raise SystemExit()
 
     src_folder_path = sys.argv[1]
     rep_folder_path = sys.argv[2]
